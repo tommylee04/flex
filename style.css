@@ -1,0 +1,165 @@
+body{
+    background: rgb(27, 27, 27)
+}
+
+hr{
+    width: 20%;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2px;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 72px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+    color:#fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    line-height: 80px;
+}
+
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    color:#fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    line-height: 0px;
+}
+
+.box1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+    border-radius: 4px;
+    background-color: #fff;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    transition: .3s;
+}
+
+.img-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border: 2px solid rgb(202, 202, 202, 0.2);
+    border-radius: 50%;
+    margin-bottom: 10px;
+    padding: 20px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.box1:nth-child(1) .img-area{
+    background-image: url(https://m.media-amazon.com/images/M/MV5BM2ZiZTk1ODgtMTZkNS00NTYxLWIxZTUtNWExZGYwZTRjODViXkEyXkFqcGdeQXVyMTE2MzA3MDM@._V1_.jpg);
+}
+
+.box1:nth-child(2) .img-area{
+    background-image: url(https://flxt.tmsimg.com/assets/p14436224_p_v10_aa.jpg);
+}
+
+.box1:nth-child(3) .img-area{
+    background-image: url(https://fesapusewebsite.blob.core.windows.net/fathom/ride-your-wave-2-6ce0f5f5bd3bed05bdc5187b28f95989.jpg);
+}
+
+.box1:nth-child(4) .img-area{
+    background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSLS20HpLoBjGvFR2_zDzbtz-tUDms4VeUCT6rOZkCTUSlHzsvz);
+}
+
+.box1:nth-child(5) .img-area{
+    background-image: url(https://m.media-amazon.com/images/M/MV5BOWUxNzIzNzgtYzhiMC00ZTlmLWIxYjctMjhhNDFhOGJmNjRmL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg);
+}
+
+.box1:nth-child(6) .img-area{
+    background-image: url(https://static.wikia.nocookie.net/psychopass/images/d/dd/Psycho_Pass_Season_3_Header.jpg/revision/latest/scale-to-width-down/340?cb=20191014163229);
+}
+
+.box1:nth-child(7) .img-area{
+    background-image: url(https://resizing.flixster.com/IA0l7CnOy5SeR8IDC8BCRqf8KoE=/740x380/v1.bjsxODY5NTc4O2o7MTg2OTY7MTIwMDsyMjE4OzEyMDA);
+}
+
+.box1:nth-child(8) .img-area{
+    background-image: url(https://i.kym-cdn.com/photos/images/original/000/927/694/b26.jpg);
+}
+
+.text{ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:24px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height:30px;
+}
+
+.manga{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+.manga-right{
+    position: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: auto;
+    border-radius: 4px;
+    background-color: #fff;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    transition: .3s;
+}
+
+.manga-left{
+    position: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: auto;
+    border-radius: 4px;
+    background-color: #fff;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    transition: .3s;
+}
+
